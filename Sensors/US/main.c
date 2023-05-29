@@ -98,6 +98,12 @@ int main() {
 
 			elapsed_time = (uint16_t) temp;
 
+      // Printing the pulse length 
+      char pulse_length_str[10];
+      sprintf(pulse_length_str, "%u", elapsed_time); 
+      USART_Tx_string(pulse_length_str); 
+      USART_Tx_string("\n"); // Add a newline character for readability   
+          
 			distance = ((float) SPEED_OF_SOUND_IN_CM_S * (float) elapsed_time)
 					/ (float) 2000;
 			dist_whole = (uint16_t) distance; //Characteristic part of Number

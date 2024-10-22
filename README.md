@@ -1,10 +1,10 @@
-# AutoHovercraft
+# Autonomous Hovercraft
 
 This repository contains the code for an Arduino-controlled hovercraft that uses Infrared (IR) and Ultrasonic (US) sensors for navigation and obstacle avoidance.
 
 ## About The Project
 
-The AutoHovercraft project is designed to give hands-on experience with the Arduino IDE and microcontroller features. It integrates Infrared and Ultrasonic rangefinders to measure distance and control an LED’s brightness. The project outputs distance and Analog-to-Digital Conversion (ADC) readings to a screen via UART. Additionally, it demonstrates real-time sensor feedback, helping users understand how to interpret sensor data for obstacle detection.
+The Autonomous Hovercraft project is designed to give hands-on experience with the Arduino IDE and microcontroller features. It utilizes the ATmega328 microcontroller, commonly found in Arduino boards, along with Infrared and Ultrasonic rangefinders to measure distance and control an LED’s brightness. The project outputs distance and Analog-to-Digital Conversion (ADC) readings to a screen via UART. Additionally, it demonstrates real-time sensor feedback, helping users understand how to interpret sensor data for obstacle detection.
 
 ### Key Features:
 
